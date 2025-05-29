@@ -1,0 +1,140 @@
+Dependencies for Project 'PitchShifter', Target 'Demo': (DO NOT MODIFY !)
+F (.\presearch.c)(0x571F34DE)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\audio\inc -I..\..\Libraries\driver\inc -I..\..\Libraries\fs\inc --diag_suppress=1488-I C:\Keil\UV4\ARM\RV31\INC-I C:\Keil\UV4\ARM\CMSIS\Include-DUSE_HW_DECODER -DINDEPEND_FREERTOS -o .\build\presearch.o --omf_browse .\build\presearch.crf --depend .\build\presearch.d)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Examples\PitchShifter\app_config.h)(0x57187F10)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\type.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\irqs.h)(0x57187F0A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cm3.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdint.h)(0x56B403FD)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\chip_info.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fs_config.h)(0x57187F06)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\folder.h)(0x57187F0D)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fsinfo.h)(0x57187F0D)
+I (C:\Keil\UV4\ARM\ARMCC\include\string.h)(0x55CC393A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fat_file.h)(0x57187F06)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\dir.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fsmount_buffermanager.h)(0x57187F06)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fs_mount.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fs_sync.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fs_filesort.h)(0x57187F0D)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\partition.h)(0x57187F06)
+F (.\diskio.c)(0x57187F10)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\audio\inc -I..\..\Libraries\driver\inc -I..\..\Libraries\fs\inc --diag_suppress=1488-I C:\Keil\UV4\ARM\RV31\INC-I C:\Keil\UV4\ARM\CMSIS\Include-DUSE_HW_DECODER -DINDEPEND_FREERTOS -o .\build\diskio.o --omf_browse .\build\diskio.crf --depend .\build\diskio.d)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Examples\PitchShifter\app_config.h)(0x57187F10)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\type.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\irqs.h)(0x57187F0A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cm3.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdint.h)(0x56B403FD)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\chip_info.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fs_config.h)(0x57187F06)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\diskio.h)(0x57187F06)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fsinfo.h)(0x57187F0D)
+I (C:\Keil\UV4\ARM\ARMCC\include\string.h)(0x55CC393A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\host_stor.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\sd_card.h)(0x57187F0A)
+F (.\filesort.c)(0x57187F10)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\audio\inc -I..\..\Libraries\driver\inc -I..\..\Libraries\fs\inc --diag_suppress=1488-I C:\Keil\UV4\ARM\RV31\INC-I C:\Keil\UV4\ARM\CMSIS\Include-DUSE_HW_DECODER -DINDEPEND_FREERTOS -o .\build\filesort.o --omf_browse .\build\filesort.crf --depend .\build\filesort.d)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Examples\PitchShifter\app_config.h)(0x57187F10)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\type.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\irqs.h)(0x57187F0A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cm3.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdint.h)(0x56B403FD)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\chip_info.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fs_config.h)(0x57187F06)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\folder.h)(0x57187F0D)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fsinfo.h)(0x57187F0D)
+I (C:\Keil\UV4\ARM\ARMCC\include\string.h)(0x55CC393A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fat_file.h)(0x57187F06)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\diskio.h)(0x57187F06)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\presearch.h)(0x57187F06)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fs_filesort.h)(0x57187F0D)
+F (.\partition.c)(0x571F34CB)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\audio\inc -I..\..\Libraries\driver\inc -I..\..\Libraries\fs\inc --diag_suppress=1488-I C:\Keil\UV4\ARM\RV31\INC-I C:\Keil\UV4\ARM\CMSIS\Include-DUSE_HW_DECODER -DINDEPEND_FREERTOS -o .\build\partition.o --omf_browse .\build\partition.crf --depend .\build\partition.d)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Examples\PitchShifter\app_config.h)(0x57187F10)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\type.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\irqs.h)(0x57187F0A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cm3.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdint.h)(0x56B403FD)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\chip_info.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fs_config.h)(0x57187F06)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\folder.h)(0x57187F0D)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fsinfo.h)(0x57187F0D)
+I (C:\Keil\UV4\ARM\ARMCC\include\string.h)(0x55CC393A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fat_file.h)(0x57187F06)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\diskio.h)(0x57187F06)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\presearch.h)(0x57187F06)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\host_stor.h)(0x57187F0A)
+F (.\startup.c)(0x571F34EA)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\audio\inc -I..\..\Libraries\driver\inc -I..\..\Libraries\fs\inc --diag_suppress=1488-I C:\Keil\UV4\ARM\RV31\INC-I C:\Keil\UV4\ARM\CMSIS\Include-DUSE_HW_DECODER -DINDEPEND_FREERTOS -o .\build\startup.o --omf_browse .\build\startup.crf --depend .\build\startup.d)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Examples\PitchShifter\app_config.h)(0x57187F10)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\type.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\irqs.h)(0x57187F0A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cm3.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdint.h)(0x56B403FD)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\chip_info.h)(0x57187F0A)
+F (.\string_convert.c)(0x57187F10)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\audio\inc -I..\..\Libraries\driver\inc -I..\..\Libraries\fs\inc --diag_suppress=1488-I C:\Keil\UV4\ARM\RV31\INC-I C:\Keil\UV4\ARM\CMSIS\Include-DUSE_HW_DECODER -DINDEPEND_FREERTOS -o .\build\string_convert.o --omf_browse .\build\string_convert.crf --depend .\build\string_convert.d)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Examples\PitchShifter\string_convert.h)(0x57187F10)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\type.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\irqs.h)(0x57187F0A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cm3.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdint.h)(0x56B403FD)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+F (.\pitch_shifter_test.c)(0x57187F10)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\audio\inc -I..\..\Libraries\driver\inc -I..\..\Libraries\fs\inc --diag_suppress=1488-I C:\Keil\UV4\ARM\RV31\INC-I C:\Keil\UV4\ARM\CMSIS\Include-DUSE_HW_DECODER -DINDEPEND_FREERTOS -o .\build\pitch_shifter_test.o --omf_browse .\build\pitch_shifter_test.crf --depend .\build\pitch_shifter_test.d)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdint.h)(0x56B403FD)
+I (C:\Keil\UV4\ARM\ARMCC\include\string.h)(0x55CC393A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Examples\PitchShifter\app_config.h)(0x57187F10)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\type.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\irqs.h)(0x57187F0A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cm3.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\chip_info.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\rst.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\clk.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\dac.h)(0x57187F0D)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\adc.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\gpio.h)(0x572FE8B6)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\uart.h)(0x57281403)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\delay.h)(0x57187F0D)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\cache.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fsinfo.h)(0x57187F0D)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fs_config.h)(0x57187F06)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\sd_card.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\timeout.h)(0x57187F0D)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fat_file.h)(0x57187F06)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\folder.h)(0x57187F0D)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\fs\inc\fs_mount.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\watchdog.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\pcm_fifo.h)(0x57187F0D)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\pmem.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\pcm_transfer.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\audio\inc\audio_utility.h)(0x57281403)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\audio_path.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\audio\inc\audio_decoder.h)(0x57187F05)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Examples\PitchShifter\string_convert.h)(0x57187F10)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Examples\PitchShifter\pitch_shifter.h)(0x57187F10)
+F (.\retarget.c)(0x57187F10)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\audio\inc -I..\..\Libraries\driver\inc -I..\..\Libraries\fs\inc --diag_suppress=1488-I C:\Keil\UV4\ARM\RV31\INC-I C:\Keil\UV4\ARM\CMSIS\Include-DUSE_HW_DECODER -DINDEPEND_FREERTOS -o .\build\retarget.o --omf_browse .\build\retarget.crf --depend .\build\retarget.d)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\type.h)(0x57187F0A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\irqs.h)(0x57187F0A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cm3.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdint.h)(0x56B403FD)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\uart.h)(0x57281403)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+F (..\..\Libraries\fs\fs.lib)(0x57187F06)()
+F (..\..\Libraries\driver\driver.lib)(0x571F042E)()
+F (.\pitch_shifter.lib)(0x57187F10)()
+F (..\..\Libraries\audio\audio_utility.lib)(0x57281403)()
+F (..\..\Libraries\audio\audio_decoder.lib)(0x57187F05)()

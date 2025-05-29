@@ -1,0 +1,31 @@
+Dependencies for Project 'SleepExample', Target 'SleepExample': (DO NOT MODIFY !)
+F (.\startup.c)(0x56C282AC)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\audio\inc -I..\..\Libraries\driver\inc -I..\Sleep. -I..\..\src\inc --diag_suppress=A1488W-I C:\Keil\UV4\ARM\RV31\INC-I C:\Keil\UV4\ARM\CMSIS\Include-DFUNC_DEBUG_EN -DFUNC_APP_DEBUG_EN -o .\output\startup.o --omf_browse .\output\startup.crf --depend .\output\startup.d)
+F (..\..\src\misc\retarget.c)(0x56C28299)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\audio\inc -I..\..\Libraries\driver\inc -I..\Sleep. -I..\..\src\inc-I C:\Keil\UV4\ARM\RV31\INC-I C:\Keil\UV4\ARM\CMSIS\Include-DFUNC_DEBUG_EN -DFUNC_APP_DEBUG_EN -o .\output\retarget.o --omf_browse .\output\retarget.crf --depend .\output\retarget.d)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\type.h)(0x56C282A1)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\irqs.h)(0x56C282A2)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cm3.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdint.h)(0x56B403FD)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\uart.h)(0x56C282A3)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdarg.h)(0x51C7B744)
+F (.\SleepExample.c)(0x56C2BEB1)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\audio\inc -I..\..\Libraries\driver\inc -I..\Sleep. -I..\..\src\inc-I C:\Keil\UV4\ARM\RV31\INC-I C:\Keil\UV4\ARM\CMSIS\Include-DFUNC_DEBUG_EN -DFUNC_APP_DEBUG_EN -o .\output\sleepexample.o --omf_browse .\output\sleepexample.crf --depend .\output\sleepexample.d)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\type.h)(0x56C282A1)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\irqs.h)(0x56C282A2)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cm3.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdint.h)(0x56B403FD)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (C:\Keil\UV4\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\clk.h)(0x56C282A1)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\gpio.h)(0x56C2829D)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\uart.h)(0x56C282A3)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\cache.h)(0x56C282A3)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\src\inc\debug.h)(0x56C28299)
+I (C:\Keil\UV4\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\timeout.h)(0x56C282A2)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\watchdog.h)(0x56C282A2)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\dac.h)(0x56C282A1)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\audio_adc.h)(0x56C282A2)
+I (D:\work\new_work\O18\SDK\MVs18_new\MVs18_SDK\Libraries\driver\inc\adc.h)(0x56C282A2)
+F (..\..\Libraries\driver\driver.lib)(0x56C2829E)()
