@@ -1,0 +1,16 @@
+--cpu Cortex-M3
+".\output\startup.o"
+".\output\audiopath.o"
+".\output\retarget.o"
+".\output\codec_effects.o"
+".\output\user_effects_param.o"
+"..\..\Libraries\driver\driver.lib"
+"..\..\Libraries\audio\drc.lib"
+"..\..\Libraries\audio\echo.lib"
+"..\..\Libraries\audio\expander.lib"
+"..\..\Libraries\audio\pitch_shifter.lib"
+--strict --scatter ".\AudioPath.sct"
+
+--keep *.o(.driver*.isr) --keep *.o(CACHE.4KBMEM) --summary_stderr --info summarysizes --map --symbols
+--info sizes --info totals --info veneers
+--list ".\output\AudioPath.map" -o .\output\AudioPath.axf

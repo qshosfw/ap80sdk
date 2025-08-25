@@ -1,0 +1,21 @@
+[V2.21.1]
+
+1. 音效参数：
+   ECHO, PingPong, PCMDelay三个音效的参数个数发生变化；
+   
+2. 导出文件：
+   1）如果V2.21.0之前版本导出的音效含有ECHO, PingPong或者PCMDelay，不支持该版本的使用；
+   2）如果V2.21.0之前版本导出的音效不含ECHO, PingPong或者PCMDelay，支持适用于该版本使用；
+
+
+
+For afore content, the translation is as following:
+
+[V2.21.1]
+
+1. Sound effect parameters:
+The number of parameters for the three sound effects, ECHO, PingPong, and PCMDelay, has changed.
+
+2. Export file:
+1) If the sound effects exported from versions prior to V2.21.0 contain ECHO, PingPong or PCMDelay, the use of this version is not supported.
+2) If the sound effects exported from versions prior to V2.21.0 do not include ECHO, PingPong or PCMDelay, support is applicable to that version.

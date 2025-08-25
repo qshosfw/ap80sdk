@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\audio\inc -I..\..\Libraries\driver\inc -I..\AudioPath
+-I E:\Keil\ARM\RV31\INC
+-I E:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include
+-DFUNC_DEBUG_EN -DFUNC_APP_DEBUG_EN -o .\output\audiopath.o --omf_browse .\output\audiopath.crf --depend .\output\audiopath.d "AudioPath.c"

@@ -1,0 +1,107 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Project\018\Normal SDK\SW\AudioCodec\Examples\AudioCodec\AudioCodec.uvproj
+Project File Date:  05/30/2023
+
+<h2>Output:</h2>
+*** Note: Rebuilding project, since 'Options->Output->Create Batch File' is selected.
+Rebuild target 'AudioCodec'
+compiling startup.c...
+compiling retarget.c...
+compiling main.c...
+.\codec\communication.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(34): warning:  #177-D: variable "i" was declared but never referenced
+      uint32_t    ReadLen = 128,i;
+main.c(35): warning:  #177-D: variable "RecvData" was declared but never referenced
+                uint8_t     RecvData;
+main.c(36): warning:  #177-D: variable "PcmTxFlg" was declared but never referenced
+      bool        PcmTxFlg = FALSE;
+main.c: 4 warnings, 0 errors
+compiling codec_effects.c...
+codec\codec_effects.c(42): warning:  #1296-D: extended constant initialiser used
+  uint32_t DynamicAddr = DYNAMIC_ALLOCATION_START_ADDR;
+codec\codec_effects.c(42): warning:  #170-D: pointer points outside of underlying object
+  uint32_t DynamicAddr = DYNAMIC_ALLOCATION_START_ADDR;
+codec\codec_effects.c(53): warning:  #177-D: variable "j" was declared but never referenced
+        uint16_t i, j;
+codec\codec_effects.c(94): warning:  #170-D: pointer points outside of underlying object
+        DynamicAddr = DYNAMIC_ALLOCATION_START_ADDR;
+codec\codec_effects.c(350): warning:  #111-D: statement is unreachable
+                                break;
+codec\codec_effects.c(377): warning:  #170-D: pointer points outside of underlying object
+        DynamicAddr = DYNAMIC_ALLOCATION_START_ADDR;
+codec\codec_effects.c(388): warning:  #177-D: variable "userEffectCnt" was declared but never referenced
+        uint8_t userEffectCnt;
+codec\codec_effects.c(715): warning:  #188-D: enumerated type mixed with another type
+        drc_init(&unit->ct, unit->channel, sample_rate, fc,  unit->param.mode, q, threshold, ratio, attack_tc, release_tc);     
+codec\codec_effects.c(817): warning:  #223-D: function "AdcPmemWriteDis" declared implicitly
+          AdcPmemWriteDis();
+codec\codec_effects.c(818): warning:  #223-D: function "AdcToPmem" declared implicitly
+      AdcToPmem(USB_MODE, (uint16_t)(AUDIO_ADC_PMEM_ADDR), USER_ADC_DMA_FIFO);
+codec\codec_effects.c(819): warning:  #223-D: function "AdcPmemWriteEn" declared implicitly
+      AdcPmemWriteEn();
+codec\codec_effects.c: 11 warnings, 0 errors
+compiling user_effects_param.c...
+user\user_effects_param.c(366): warning:  #1-D: last line of file ends without a newline
+  };
+user\user_effects_param.c: 1 warning, 0 errors
+compiling codec_mixer.c...
+compiling mcu_circular_buf.c...
+compiling communication.c...
+codec\communication.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+codec\communication.c(281): warning:  #550-D: variable "address" was set but never used
+        uint8_t address;
+codec\communication.c(350): warning:  #1-D: last line of file ends without a newline
+  #endif
+codec\communication.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=53124 RO-data=6480 RW-data=4792 ZI-data=3724  
+FromELF: creating hex file...
+After Build - User command #1: fromelf.exe --bin -o "D:\Project\018\Normal SDK\SW\AudioCodec\Examples\AudioCodec\output\AudioCodec.axf.bin" "D:\Project\018\Normal SDK\SW\AudioCodec\Examples\AudioCodec\output\AudioCodec.axf"
+".\output\AudioCodec.axf" - 0 Error(s), 19 Warning(s).
+Load "D:\\Project\\018\\Normal SDK\\SW\\AudioCodec\\Examples\\AudioCodec\\output\\AudioCodec.axf" 
+Include "D:\\Project\\018\\Normal SDK\\SW\\AudioCodec\\Examples\\AudioCodec\\AudioCodec.ini" 
+/*----------------------------------------------------------------------
+ *   SW Flash/SDRAM Download Configuration Script
+ * Note:
+ *  Work Mode:Support different work mode,but OTP+ROM mode work on FPGA platform only,Flash only mode must select the VECTRESET reset
+ *   Hardware Platform:You can select FPGA test platform or ASIC chip platform
+ *   Oscillator Select:Select external oscillator,it can speed up the download,if you cannot be
+                       sure,select 'None'
+ *   Fast Erase:Merge the multi-sectors erase into block erase,if signal of board not good,select 'Normal'
+ *   Lock Range:prevent data damage from write protection 
+ *   Debug Port:downloader debug interface
+  *   Download Offset;download the code to flash offset address with 4KB align
+ *-----------------------------------------------------------------------*/
+FUNC void Setup (void) {
+    //Work Mode[0:OTP only,1:OTP+FLASH,2:OTP+SDRAM,3:OTP+ROM,4:FLASH only,5:SDRAM Test]
+    _WDWORD(0x20007C00,1);
+    //Hardware Platform[0:ASIC platform,1:FPGA platform]
+    _WDWORD(0x20007C04,0);
+    //Oscillator Select[-1:None,0:32K,1:1M,2:2M,...,31:31M]
+    _WDWORD(0x20007C08,0);
+    //Fast Erase[0:Nomal,1:Fast]
+    _WDWORD(0x20007C0C,1);
+    //Lock Range[0:None,1:50%,2:75%,3:87.5%,4:100%]
+    _WDWORD(0x20007C10,0);
+    
+    //Debug Port[0:port 0,1:port 1,2:port 2,-1:none]
+    _WDWORD(0x20007C14,-1);
+    
+    //Download Offset[0:0x00000000,where:0xWHERE]
+    _WDWORD(0x20007C18,0);
+}
+Setup();
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Clean started: Project: 'AudioCodec'
+   deleting intermediate output files for target 'AudioCodec'
+</pre>
+</body>
+</html>
